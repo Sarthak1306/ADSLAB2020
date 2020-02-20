@@ -6,11 +6,11 @@ class Line
 public:
   void setLength(double len);
   double getLength(void);
-  Line();
+  Line();  // Default Constructor
 private:
   double length;
 };
-Line::Line(){
+Line::Line(){   // Definition
   std::cout<<"Object is being created";
   std::cout<<std::endl;
 }
